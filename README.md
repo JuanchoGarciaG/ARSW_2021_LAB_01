@@ -35,6 +35,8 @@
 	2. Inicie los tres hilos con 'start()'.
 	3. Ejecute y revise la salida por pantalla. 
 	4. Cambie el incio con 'start()' por 'run()'. Cómo cambia la salida?, por qué?.
+	
+	La salida se ve alterada en su orden de impresión, esto se debe a que al hacer un 'start()' se ejecuta el hilo, dando posibilidad a la concurrencia, mientras qué, al ejecutar 'run()', se hace llamado diréctamente al método de run(), haciendo un llamado como se haría con cualquier método y esperando a que este termine para continuar con la siguiente instrucción.
 
 **Parte II - Ejercicio Black List Search**
 
